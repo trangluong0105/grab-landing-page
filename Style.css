@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px !important;
+    height: 100%;
+}
+
+nav {
+    height: 100px;
+    padding-top: 10px;
+    position: relative;
+}
+
+nav .nav-left {
+    float: left;
+    width: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+nav .nav-left #logo {
+    background-image: url('./images/Grab_logo.png');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    width: 91px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+nav #navbar-main ul {
+    padding-left: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav #nav-pay {
+    background-image: url(https://www.grab.com/sg/wp-content/uploads/media/img/grabpay_topnav.png);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 58px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+nav #navbar-main ui{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav #navbar-main ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .container .nav-right {
+
+    width: 500px;
+    display: flex;
+}
+
+nav .container .nav-right div {
+    float: right;
+}
+
+nav #nav-drive-menu {
+    display: none;
+}
+
+nav #navbar-right ul {
+    list-style: none;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+nav #menu-lang ul {
+    list-style: none;
+}
+
+nav #menu-lang-menu {
+    display: none;
+}
+
+section .container {
+    width: 100%;
+}
+
+section .how-grab-works {
+    padding-top: 50px;
+}
+
+section header {
+    text-align: center;
+}
+
+section header h2 {
+    color: #009d3b;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.how-grab-works .row {
+    height: 580px;
+}
+
+.how-grab-works .row::before {
+    display: table;
+    content: "";
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+#carousel-how-grab-works {
+    height: 100%;
+}
+
+#carousel-how-grab-works .carousel-bg {
+    background-image: url(https://www.grab.com/vn/wp-content/themes/grabsg/images/mod-howitwork/empty-v2.png);
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+}
+
+#carousel-how-grab-works .carousel-inner {
+    position: absolute;
+    left: 50%;
+    width: 210px;
+    height: 365px;
+}
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+#carousel-how-grab-works .carousel-indicators li::after {
+    content: attr(data-step);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #009d3b;
+    font-weight: 500;
+    font-size: 1em;
+    color: #009d3b;
+    text-align: center;
+    line-height: 29px;
+}
+
+.education {
+    background-color: #009d3b;
+    height: 300px;
+    text-align: center;
+}
+
+.education .text-center {
+    padding-top: 60px;
+}
+
+.education .text-center h2 {
+    color: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education .text-center a {
+    text-transform: uppercase;
+    border: 1px solid white;
+    background-color: white;
+    color: #009d3b !important;
+    padding: 16px 20px;
+}
